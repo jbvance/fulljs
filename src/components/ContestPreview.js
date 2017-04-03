@@ -1,11 +1,11 @@
 import React from 'react';
 
 const ContestPreview = ({contest}) => (
-  <div className="contestPreview">
-    <div>
+  <div className="ContestPreview">
+    <div className="category-name">
       {contest.categoryName}
     </div>
-    <div>
+    <div className="contest-name">
       {contest.contestName}
     </div>
   </div>
